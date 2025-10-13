@@ -1,6 +1,6 @@
 extends Node2D
 
-hej rurik om du ser det här så fungerade det
+"bounjour, c'est lundi"
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
