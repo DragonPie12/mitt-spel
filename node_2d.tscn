@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://l0bia3hdq6yu"]
+[gd_scene load_steps=2 format=3 uid="uid://dcdeweyy2vkl6"]
 
 [ext_resource type="Script" uid="uid://c3pp75dfjopxp" path="res://node_2d.gd" id="1_wtcfe"]
 
@@ -6,8 +6,8 @@
 script = ExtResource("1_wtcfe")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 198.0
-offset_top = 54.0
-offset_right = 554.0
-offset_bottom = 170.0
-text = "hej"
+offset_left = 210.0
+offset_top = 60.0
+offset_right = 566.0
+offset_bottom = 176.0
+text = "hej det här sdhdhd"
