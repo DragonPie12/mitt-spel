@@ -1,6 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://dcdeweyy2vkl6"]
+[gd_scene load_steps=2 format=3 uid="uid://l0bia3hdq6yu"]
 
 [ext_resource type="Script" uid="uid://c3pp75dfjopxp" path="res://node_2d.gd" id="1_wtcfe"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_wtcfe")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 198.0
+offset_top = 54.0
+offset_right = 554.0
+offset_bottom = 170.0
+text = "hej"
