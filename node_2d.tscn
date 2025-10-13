@@ -10,4 +10,12 @@ offset_left = 210.0
 offset_top = 60.0
 offset_right = 566.0
 offset_bottom = 176.0
-text = "hej det här sdhdhd"
+text = "hej det här är en knapp"
+
+[node name="Button" type="Button" parent="Label"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 43.0
+offset_right = 36.0
+offset_bottom = 51.0
+scale = Vector2(15.0409155, 17.917418)
