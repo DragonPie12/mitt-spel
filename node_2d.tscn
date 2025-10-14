@@ -82,6 +82,7 @@ sources/0 = SubResource("TileSetAtlasSource_epypp")
 
 [node name="Node2D" type="Node2D"]
 
+<<<<<<< HEAD
 [node name="Panel" type="Panel" parent="."]
 offset_right = 1150.0
 offset_bottom = 647.0
@@ -107,3 +108,19 @@ position = Vector2(3, -10)
 tile_set = SubResource("TileSet_0hol4")
 format = 2
 layer_0/tile_data = PackedInt32Array(2359371, 0, 0, 1835083, 0, 0, 1310795, 0, 0, 786507, 0, 0, 262219, 0, 0, -262069, 0, 0, -262077, 0, 0, -262085, 0, 0, -262093, 0, 0, -262101, 0, 0, -262109, 0, 0, -262117, 0, 0, -262125, 0, 0, -262133, 0, 0, -262141, 0, 0, 262139, 0, 0, 262140, 0, 0, 786428, 0, 0, 1310716, 0, 0, 1835004, 0, 0, 2293756, 0, 0, 2359292, 0, 0, 2424828, 0, 0, 2490364, 0, 0, 2555900, 0, 0, 2883588, 0, 0, 2883596, 0, 0, 2883604, 0, 0, 2883612, 0, 0, 2883620, 0, 0, 2883628, 0, 0, 2883636, 0, 0, 2883644, 0, 0, 2883653, 0, 0, 2883651, 0, 0, 2883655, 0, 0, 1245198, 0, 0, 1310766, 0, 0)
+=======
+[node name="Label" type="Label" parent="."]
+offset_left = 210.0
+offset_top = 60.0
+offset_right = 566.0
+offset_bottom = 176.0
+text = "hej det här är en knapp"
+
+[node name="Button" type="Button" parent="Label"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 43.0
+offset_right = 36.0
+offset_bottom = 51.0
+scale = Vector2(15.0409155, 17.917418)
+>>>>>>> 52f5ff0b494002890aed7bae1b3de842db9522a2
