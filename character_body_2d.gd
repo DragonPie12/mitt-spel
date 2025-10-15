@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var speed = 3
+var speed = 200
 # ändra variabeln för att göra snabbare eller långsamare
 
 # _physics_process(delta): händer varje fream
@@ -22,5 +22,6 @@ func _physics_process(delta):
 		input_vector = input_vector.normalized()
 # om jag trycker up och höger så åker den inte dubelt snabbt
 
-	position += input_vector * speed
+	velocity = input_vector * speed
+	move_and_slide()
 # tar det som står i vektorn alltså (1, 0) och gångrar den med speed alltså 3 och då rör sig gubben 3 tiles 
