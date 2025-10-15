@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://l0bia3hdq6yu"]
+[gd_scene load_steps=6 format=3 uid="uid://l0bia3hdq6yu"]
 
 [ext_resource type="PackedScene" uid="uid://b1rlulry38cb6" path="res://scenes/main_charecter.tscn" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://eal68q1c27fn" path="res://Brown.png" id="1_epypp"]
 [ext_resource type="Texture2D" uid="uid://c4btc0meloxyh" path="res://Terrain (16x16).png" id="3_epypp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0hol4"]
@@ -183,6 +184,15 @@ sources/0 = SubResource("TileSetAtlasSource_0hol4")
 [node name="Backround" type="Panel" parent="."]
 offset_right = 1146.0
 offset_bottom = 644.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+offset_left = 3.0
+offset_top = -4.0
+offset_right = 1151.0
+offset_bottom = 663.0
+texture = ExtResource("1_epypp")
+stretch_mode = 1
 
 [node name="Main_Charecter" parent="." instance=ExtResource("1_0e48y")]
 position = Vector2(131, 83)
