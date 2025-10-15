@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var speed = 3
+var speed = 4
 # ändra variabeln för att göra snabbare eller långsamare
 
 # _physics_process(delta): händer varje fream
