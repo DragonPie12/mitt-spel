@@ -11,7 +11,11 @@ config_version=5
 [application]
 
 config/name="mitt-spel"
+<<<<<<< Updated upstream
 run/main_scene="uid://l0bia3hdq6yu"
+=======
+run/main_scene="uid://b7t7rv5ts28un"
+>>>>>>> Stashed changes
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
